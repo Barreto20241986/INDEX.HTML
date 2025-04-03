@@ -1,4 +1,18 @@
+.imagem-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* ajuste conforme necessário */
+}
 
+.imagem-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para ajustar o tamanho corretamente */
+    opacity: 0.7; /* Ajuste a transparência conforme necessário */
+}
     <!DOCTYPE html><html lang="pt-br">
 <head>
     <meta charset="UTF-8">
