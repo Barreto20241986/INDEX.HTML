@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-    <header>Hotel Orimo – Conforto e Comodidade no Coração de Aparecida-SP</header><section>
+    <header>Hotel Santa luz– Conforto e Comodidade no Coração de Aparecida-SP</header><section>
     <h2>📍 Localização</h2>
     <p>Rua Monte Carmelo, 208 - Centro, Aparecida-SP</p>
 </section>
