@@ -1,5 +1,4 @@
-<!DOCTYPE html><html lang="pt-br">
-<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Santa Luz</title>
@@ -104,9 +103,20 @@
 
 <footer>
     <a href="https://wa.me/message/YUBI7UX65V5DH1" class="whatsapp-button">WhatsApp</a>
-    <a href="https://www.facebook.com/share/1HhbHjHCXW/">Facebook</a>
-    <a href="https://www.instagram.com/hotel_santaluz?igsh=enJxYjM4Z2l5b3p0">Instagram</a>
+    <a 
+
+
+href="https://www.facebook.com/share/1HhbHjHCXW/">Facebook</a>
+    <a 
+
+
+
+href="https://www.instagram.com/hotel_santaluz?igsh=enJxYjM4Z2l5b3p0">Instagram</a>
 </footer>
+
+
+
+
 
 <script>
     function compartilharReserva() {
