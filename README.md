@@ -19,7 +19,7 @@
 
 <section>
     <h2>Sobre Nós</h2>
-    <p>O Hotel Orimo oferece hospedagem confortável e bem localizada em Aparecida-SP. Estamos a apenas:</p>
+    <p>O Hotel Santa luz oferece hospedagem confortável e bem localizada em Aparecida-SP. Estamos a apenas:</p>
     <ul>
         <li>✅ 3 minutos do Santuário Nacional</li>
         <li>✅ 3 minutos da Igreja Antiga</li>
