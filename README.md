@@ -30,7 +30,10 @@
             <li>✔ Restaurante com capacidade para 50 pessoas</li>
             <li>✔ Quartos suítes equipados com: Ventilador, Frigobar, TV de tela plana</li>
         </ul>
-    </section>
+    
+<img src="imagens/foto.jpg" alt="Foto do Hotel">
+
+</section>
     <section id="depoimentos">
         <h2>Depoimentos</h2>
         <blockquote>"Hotel muito bom, fomos de excursão da cidade de Varginha, pessoal muito educado, comida gostosa, quartos limpos. Voltarei mais vezes!"</blockquote>
