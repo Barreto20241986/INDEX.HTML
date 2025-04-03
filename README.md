@@ -1,70 +1,69 @@
-.imagem-container {
-    position: relative;
-    width: 100%;
-    height: 400px; /* ajuste conforme necessário */
-}
 
-.imagem-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Para ajustar o tamanho corretamente */
-    opacity: 0.7; /* Ajuste a transparência conforme necessário */
-}
-    <!DOCTYPE html><html lang="pt-br">
+          <!DOCTYPE html><html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Santa Luz</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Hotel Santa Luz</h1>
-    </header>
-    <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>O Hotel Santa Luz oferece hospedagem confortável e bem localizada em Aparecida-SP. Estamos a apenas:</p>
-        <ul>
-            <li>✅ 3 minutos do Santuário Nacional</li>
-            <li>✅ 3 minutos da Igreja Antiga</li>
-            <li>✅ 1 minuto da rodoviária e da feira</li>
-        </ul>
-    </section>
-    <section id="servicos">
-        <h2>Nossos Serviços</h2>
-        <ul>
-            <li>✔ Pernoite completo ou apenas pouso</li>
-            <li>✔ Quartos disponíveis: Casal, Família (até 5 pessoas), Triplo, Quádruplo</li>
-            <li>✔ Wi-Fi gratuito em todo o hotel</li>
-            <li>✔ Terraço com vista privilegiada</li>
-            <li>✔ Restaurante com capacidade para 50 pessoas</li>
-            <li>✔ Quartos suítes equipados com: Ventilador, Frigobar, TV de tela plana</li>
-        </ul>
-    
-<img src="imagens/foto.jpg" alt="Foto do Hotel">
+        <p>Conforto e comodidade em Aparecida-SP</p>
+    </header><nav>
+    <ul>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#fotos">Fotos</a></li>
+        <li><a href="#reserva">Reserva</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+    </ul>
+</nav>
 
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>O Hotel Santa Luz oferece hospedagem confortável e bem localizada...</p>
 </section>
-    <section id="depoimentos">
-        <h2>Depoimentos</h2>
-        <blockquote>"Hotel muito bom, fomos de excursão da cidade de Varginha, pessoal muito educado, comida gostosa, quartos limpos. Voltarei mais vezes!"</blockquote>
-        <blockquote>"Muito aconchegante, próximo da igreja e das lojas. Pessoal super educado, café da manhã excelente e comida saborosa. Fiquei muito satisfeito!"</blockquote>
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>📧 E-mail: hotelsantaluz@gmail.com</p>
-        <p>📞 Telefones: (12) 99618-0635 | (12) 98148-0525</p>
-        <div class="redes-sociais">
-            <a href=
 
-"https://wa.me/message/YUBI7UX65V5DH1" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-            <a href="https://www.facebook.com/share/1HhbHjHCXW/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
-            <a href="https://www.instagram.com/hotel_santaluz?igsh=enJxYjM4Z2l5b3p0" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-        </div>
-    </section>
-    <script src="script.js"></script>
+<section id="fotos">
+    <h2>Galeria de Fotos</h2>
+    <div class="carousel">
+        <img src="imagem1.jpg" alt="Hotel">
+        <img src="imagem2.jpg" alt="Quarto">
+        <img src="imagem3.jpg" alt="Restaurante">
+    </div>
+</section>
+
+<section id="reserva">
+    <h2>Reserva</h2>
+    <form>
+        <label for="checkin">Check-in:</label>
+        <input type="date" id="checkin" name="checkin">
+        
+        <label for="checkout">Check-out:</label>
+        <input type="date" id="checkout" name="checkout">
+        
+        <button type="button" onclick="compartilharWhatsApp()">Enviar Reserva</button>
+    </form>
+</section>
+
+<section id="localizacao">
+    <h2>Localização</h2>
+    <iframe src="https://www.google.com/maps/embed?..." width="600" height="450"></iframe>
+</section>
+
+<section id="depoimentos">
+    <h2>O que dizem sobre nós</h2>
+    <p>"Hotel muito bom, fomos de excursão..." - Cliente Satisfeito</p>
+    <p>"Muito aconchegante, próximo da igreja..." - Outra avaliação</p>
+</section>
+
+<footer>
+    <a href="https://wa.me/message/YUBI7UX65V5DH1" target="_blank">WhatsApp</a>
+    <a href="https://www.facebook.com/share/1HhbHjHCXW/" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/hotel_santaluz?igsh=enJxYjM4Z2l5b3p0" target="_blank">Instagram</a>
+</footer>
+
 </body>
 </html>
