@@ -71,7 +71,7 @@
 </section>
 
 <footer>
-    <p>&copy; 2025 Hotel Orimo - Todos os direitos reservados.</p>
+    <p>&copy; 2025 Hotel Santa luz- Todos os direitos reservados.</p>
 </footer>
 
 </body>
