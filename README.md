@@ -41,7 +41,9 @@
         <p>📧 E-mail: hotelsantaluz@gmail.com</p>
         <p>📞 Telefones: (12) 99618-0635 | (12) 98148-0525</p>
         <div class="redes-sociais">
-            <a href="https://wa.me/message/YUBI7UX65V5DH1" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href=
+
+"https://wa.me/message/YUBI7UX65V5DH1" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             <a href="https://www.facebook.com/share/1HhbHjHCXW/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
             <a href="https://www.instagram.com/hotel_santaluz?igsh=enJxYjM4Z2l5b3p0" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
         </div>
